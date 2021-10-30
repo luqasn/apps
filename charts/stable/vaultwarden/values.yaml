@@ -1,5 +1,5 @@
 # Default values for Bitwarden.
-
+# Fake change
 image:
   repository: ghcr.io/truecharts/vaultwarden
   pullPolicy: IfNotPresent
