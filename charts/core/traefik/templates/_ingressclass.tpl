@@ -10,7 +10,6 @@ apiVersion: {{ printf "networking.k8s.io/%s" .Values.ingressClass.fallbackApiVer
   {{- else }}
   {{- fail "\n\n ERROR: You must have at least networking.k8s.io/v1beta1 to use ingressClass" }}
   {{- end }}
----
 kind: IngressClass
 metadata:
   annotations:
